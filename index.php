@@ -1,6 +1,6 @@
 <?php
 require './Controleur/actions.php';
-//Bonjour
+
 try {
     if ((isset($_GET['action'])) && ($_GET['action']=='afficherBillet')) {
         if (isset($_GET['id'])) {
